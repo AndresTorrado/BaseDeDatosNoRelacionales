@@ -15,6 +15,6 @@ module.exports.initServer = async function () {
     App.use(Express.json())
     App.use(Url, Router)
     App.listen(Port, () => {
-        console.log(`Server available on port ${Port}`)
+        console.log(`Server listening - ${Port}`)
     })
 }

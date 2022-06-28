@@ -1,0 +1,1254 @@
+{
+	"info": {
+		"_postman_id": "cd18c762-4d2d-4c16-af70-afe06aff0567",
+		"name": "Assandra - Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5180377"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/telemetrias",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"Andres\",\r\n    \"date\": \"2022-02-04\",\r\n    \"wave\": 5,\r\n    \"temperature\": 340,\r\n    \"vibration\": 34,\r\n    \"pressure\": 12,\r\n    \"voltage\": 46,\r\n    \"speed\": 231,\r\n    \"time\": 436\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"Andres\",\r\n    \"date\": \"2022-06-08\",\r\n    \"wave\": 12,\r\n    \"temperature\": 232,\r\n    \"vibration\": 2424,\r\n    \"pressure\": 534,\r\n    \"voltage\": 52,\r\n    \"speed\": 623,\r\n    \"time\": 73\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2021-02-03\",\r\n    \"wave\": 534,\r\n    \"temperature\": 5313,\r\n    \"vibration\": 513513,\r\n    \"pressure\": 531,\r\n    \"voltage\": 531,\r\n    \"speed\": 1,\r\n    \"time\": 421\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"Andres\",\r\n    \"date\": \"2022-05-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 323,\r\n    \"vibration\": 41,\r\n    \"pressure\": 2,\r\n    \"voltage\": 412,\r\n    \"speed\": 24,\r\n    \"time\": 45\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 567,\r\n    \"temperature\": 7,\r\n    \"vibration\": 3,\r\n    \"pressure\": 2,\r\n    \"voltage\": 45,\r\n    \"speed\": 6456,\r\n    \"time\": 54\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 45,\r\n    \"temperature\": 2,\r\n    \"vibration\": 43,\r\n    \"pressure\": 2,\r\n    \"voltage\": 43,\r\n    \"speed\": 3,\r\n    \"time\": 32\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-04-06\",\r\n    \"wave\": 434,\r\n    \"temperature\": 23,\r\n    \"vibration\": 3,\r\n    \"pressure\": 2,\r\n    \"voltage\": 35,\r\n    \"speed\": 53,\r\n    \"time\": 34\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vehicle\": \"vehicleTest\",\r\n    \"date\": \"2022-06-03\",\r\n    \"wave\": 5,\r\n    \"temperature\": 60,\r\n    \"vibration\": 20,\r\n    \"pressure\": 43,\r\n    \"voltage\": 352,\r\n    \"speed\": 225,\r\n    \"time\": 1150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/telemetrias?vehicle=Andres",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/telemetrias?vehicle=vehicleTest",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"telemetrias"
+					],
+					"query": [
+						{
+							"key": "vehicle",
+							"value": "vehicleTest"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

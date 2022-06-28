@@ -7,7 +7,7 @@ const Repository = require('./repository/telemetria-repository');
         await Repository.initRepo();
         await Server.initServer();
     } catch (err) {
-        console.log(`${err} \n stack: ${err.stack}`);
+        console.log('Server unable to init');
         process.exit(1);
     }
 })()
