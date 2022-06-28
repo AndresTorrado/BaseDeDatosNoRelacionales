@@ -5,12 +5,12 @@ module.exports = class TelemetriaService {
         this.telemetriaRepository = new TelemetriaRepository()
     }
 
-    async getTelemetria(telemetriaId) {
-        var telemetria = await this.telemetriaRepository.get(telemetriaId);
+    async getTelemetria(vehicle) {
+        var telemetria = await this.telemetriaRepository.getTelemetria(vehicle);
         return telemetria;
     }
 
     async createTelemetria(newTelemetria){
-        return await this.activityRepository.createTelemetria(newTelemetria);
+        return await this.telemetriaRepository.createTelemetria(newTelemetria);
     }
 }

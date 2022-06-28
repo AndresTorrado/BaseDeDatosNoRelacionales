@@ -7,36 +7,38 @@ module.exports = class TelemetriaController {
 
     async get(req, res) {
         try{
-            var telemetria = await this.telemetriaService.getTelemetria(req.telemetriaId)
+            var telemetria = await this.telemetriaService.getTelemetria(req.query.vehicle)
             if (telemetria) {
-                res.status(200)
-                res.body = { status: 200, message: value }
+                res.status(200);
+                res.body = telemetria;
             } else {
-                res.status(400)
-                res.body = { status: 400, message: `Invalid Api data` }
+                res.status(400);
+                res.body = 'telemetria not found';
             }
         }catch(e){
-            res.status(400)
-            res.body = { status: 400, message:  e.toString() }
+            res.status(400);
+            res.body = e.toString();
         }
-        res.send(res.body)
+
+        res.send({status: res.status, body: res.body});
     }
 
     async post(req, res) {
         try{
             var newTelemetria = await this.telemetriaService.createTelemetria(req.body)
             if (newTelemetria) {
-                res.status(201)
-                res.body = { status: 201, message: value }
+                res.status(201);
+                res.body = newTelemetria;
             } else {
-                res.status(400)
-                res.body = { status: 400, message: `Invalid Api data` }
+                res.status(400);
+                res.body = 'Could not create telemetria';
             }
         }catch(e){
-            res.status(400)
-            res.body = { status: 400, message:  e.toString() }
+            res.status(400);
+            res.body = e.toString();
         }
-        res.send(res.body)
+        res.send({status: res.status, body: res.body});
+
     }
 
 }

@@ -1,28 +1,23 @@
 var cassandra = require('cassandra-driver');
+const uuid = require('uuid');
 
+const client = new cassandra.Client({
+    contactPoints: ['127.0.0.1'],
+    localDataCenter: 'datacenter1'
+});
 module.exports = class TelemetriaRepository {
     constructor() {
     }
 
     async createTelemetria(reqBody) {
-        var insert = `INSERT INTO tesla.telemetria (id, user, date, kudos, comments, title, text)
-        VALUES( 
-            ${uuidv1()}, 
-            '${reqBody.user.toString()}', 
-            '${reqBody.date}', 
-            0, 
-            {''}, 
-            '${reqBody.title}', 
-            '${reqBody.text}'
-        );`
-
-        await client.execute(insert)
-        
-        return "Ok"
+        var insert = `INSERT INTO tesla.telemetria (id, vehicle, date, wave, temperature, vibration, pressure, voltage, speed, time)
+        VALUES(${uuid.v1()},'${reqBody.vehicle}','${reqBody.date}',${reqBody.wave},${reqBody.temperature},${reqBody.vibration},${reqBody.pressure},${reqBody.voltage},${reqBody.speed},${reqBody.time});`;
+        await client.execute(insert);
+        return 'Telemetria created sucesfully';
     }
 
-    async getTelemetria(telemetriaId){
-        var query = `SELECT * FROM tesla.telemetria WHERE id='${telemetriaId}';`
+    async getTelemetria(vehicle){
+        var query = `SELECT * FROM tesla.telemetria WHERE vehicle='${vehicle}';`
 
         var result = await client.execute(query)
         
@@ -30,13 +25,6 @@ module.exports = class TelemetriaRepository {
     }
 
     static async initRepo(){
-        const client = new cassandra.Client(
-            {
-                contactPoints: ['127.0.0.1'],
-                localDataCenter: 'dc1',
-                queryOptions: { consistency: cassandra.types.consistencies.any }
-            }
-        );
         
         client.connect().then(function () {
             var keyspaceQuery = "CREATE KEYSPACE IF NOT EXISTS tesla WITH REPLICATION = {'class': 'SimpleStrategy', 'replication_factor': 1};";
@@ -44,25 +32,16 @@ module.exports = class TelemetriaRepository {
         }).then(function () {
             var tableQuery = `CREATE TABLE IF NOT EXISTS tesla.telemetria (
                                 id uuid,
-                                user Varchar,
+                                vehicle Varchar,
                                 date timestamp,
-                                kudos int,
-                                comments set<text>,
-                                title Varchar,
-                                url Varchar,
-                                comment Varchar,
-                                type Varchar,
-                                duration Double,
-                                distance Double,
-                                text Varchar,
-                                photo Varchar,
-                                description Varchar,
-                                effort int,
-                                location Varchar,
-                                average_speed Double,
-                                cadence Double,
-                                calories Double,
-                                PRIMARY KEY (user, date, id)
+                                wave int,
+                                temperature int,
+                                vibration int,
+                                pressure int,
+                                voltage int,
+                                speed int,
+                                time int,
+                                PRIMARY KEY (vehicle, date, id)
                             ) WITH CLUSTERING ORDER BY (date DESC);`
             return client.execute(tableQuery);
         })

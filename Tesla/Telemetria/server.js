@@ -4,7 +4,7 @@ module.exports.initServer = async function () {
     const App = Express();
 
     const Port = '8080'
-    const Url = 'http://localhost:8080/'
+    const Url = '/api'
 
     const Router = require('./controllers/router');
 
